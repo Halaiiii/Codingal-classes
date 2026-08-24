@@ -1,0 +1,22 @@
+body{ 
+     background-color: darkblue;
+     background: radial-gradient(rgb(1, 1, 136), rgb(88, 88, 100));
+     background-position: top center;
+     font-family: Arial, sans-serif;
+   }
+.page-header{
+   background-image:
+   linear-gradient(to right, purple, coral);
+   border-radius: 16px;
+   text-align:center;
+   color: white;
+}
+.fact-card{
+    background-color:rgb(225, 41, 142);
+border-radius:12px;
+color: white;
+}
+.fact-card h2{
+    color:coral;
+}
+    
