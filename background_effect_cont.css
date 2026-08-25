@@ -1,0 +1,77 @@
+#square{
+    width:50px;
+    height: 50px;
+    background-color: purple;
+    animation-name: moveright;
+    animation-duration: 3s;
+    animation-iteration-count: 3;
+    animation-delay:1s;
+    animation-direction:alternate-reverse
+}
+
+@keyframes moveright{
+    from{
+    transform: translateX(0)
+}
+to{
+    transform:translateX(300px)
+}
+}
+
+
+#circle{
+    width:50px;
+    height:50px;
+    background-color:red;
+    /* animation: animation-name duration iteration-count delay direction; */
+    border-radius:50%;
+    animation:bounce 3s
+}
+
+@keyframes bounce {
+    from 0%,100%{
+        transform: translateY(0)
+    }
+
+    to {
+        transform: translateY(100px)
+    }
+}
+
+#square1{
+    width:50px;
+    height:50px;
+    background-color:green;
+    animation:pulse 2s 3
+
+}
+
+@keyframes pulse {
+
+    from {
+        transform: scale(1)
+    }
+
+    to {
+        transform: scale(1.4)
+    }
+}
+
+#square2 {
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+    animation: colorChange 5s 3
+}
+
+@keyframes colorChange {
+    0% {
+        background-color: rgb(228, 22, 56);
+    }
+    50% {
+        background-color: yellow;
+    }
+    100% {
+        background-color: rgb(79, 207, 216);
+    }
+}
