@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Food Menu</title>
+        <style>
+            body{
+                text-align: center;
+            }
+
+            h1{ color:#e65c00;}
+
+            h1 + p{
+                background-color:#ffe0b2 ;
+                border-radius: 8px;
+                color: #bf360c;
+            }
+
+            ul > li{
+                list-style: none;
+                font-size: 18px;
+                font-weight: bold;
+                color: #5d4037;
+                width: 260px;
+            }
+
+            ul li:nth-child(3) {
+                background: #ffe082;
+                color:#e65c00
+            }
+
+            .decs { 
+                color:#555;
+                font-size: 15px;
+            }
+
+            .desc::first-letter{ 
+                font-size: 30px;
+                color: #e65c00;
+                font-weight:bold;
+            }
+
+            a{
+                color:#e65c00;
+                text-decoration:none;
+                font-size: 15px;
+                border: 2px solid #e65c00;
+                border-radius: 8px;
+
+            }
+
+            a:hover{
+                background:#e65c00;
+                color:white;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <h1>My Food Menu</h1>
+        <p>Pick your favourite dish and dig in!</p>
+
+        <ul>
+            <li>pizza</li>
+            <li>Burger</li>
+            <li>tacos-Chef's Special!</li>
+        </ul>
+
+        <p class="desc">Every Dish on this menu is made with Love!</p>
+
+        <div>
+            <a href="#">Order Now</a>
+            <a href="#">See More</a>
+        </div>
+    </body>
+    </html>
